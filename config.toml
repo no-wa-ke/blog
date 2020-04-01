@@ -1,0 +1,4 @@
+baseURL = "https://no-wa-ke.github.io/blog/"
+languageCode = "ja-jp"
+title = "My New Hugo Site"
+theme = "ananke"
