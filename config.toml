@@ -1,5 +1,35 @@
-baseURL = "https://no-wa-ke.github.io/blog/"
-languageCode = "ja-jp"
-title = "My New Hugo Site"
-theme = "ananke"
-publishDir = "docs"
+baseurl = "https://no-wa-ke.github.io/blog"
+languageCode = "en-us"
+theme = "hugo-theme-terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "post"
+  themeColor = "red"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    title = "kido blog"
+    subtitle = "A simple, retro theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "kido blog"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
