@@ -1,18 +1,18 @@
-baseurl = "https://no-wa-ke.github.io/blog"
+baseurl = "https://example.com/"
 languageCode = "en-us"
 theme = "hugo-theme-terminal"
 paginate = 5
 
 [params]
   contentTypeName = "post"
-  themeColor = "red"
+  themeColor = "orange"
   showMenuItems = 2
   fullWidthTheme = false
   centerTheme = false
 
 [languages]
   [languages.en]
-    title = "kido blog"
+    title = "Terminal"
     subtitle = "A simple, retro theme for Hugo"
     keywords = ""
     copyright = ""
@@ -21,7 +21,7 @@ paginate = 5
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "kido blog"
+      logoText = "Terminal"
       logoHomeLink = "/"
 
     [languages.en.menu]
