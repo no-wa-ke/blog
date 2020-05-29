@@ -2,6 +2,7 @@ baseurl = "https://no-wa-ke.github.io/blog"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
+publishDir = "docs"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
