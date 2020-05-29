@@ -40,8 +40,8 @@ publishDir = "docs"
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "kido blog"
+    subtitle = "memo"
     owner = ""
     keywords = ""
     copyright = ""
@@ -50,7 +50,7 @@ publishDir = "docs"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "kido blog"
       logoHomeLink = "/"
 
     [languages.en.menu]
